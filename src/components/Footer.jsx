@@ -1,7 +1,7 @@
 import { Avatar, Box, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
-
-const avatarSrc = "https://avatars.githubusercontent.com/u/25058652";
+import avatarSrc from '../assets/cryptoin.webp'
+// const avatarSrc = "https://avatars.githubusercontent.com/u/25058652";
 
 const Footer = () => {
   return (
@@ -21,7 +21,8 @@ const Footer = () => {
             textAlign={["center", "left"]}
           >
             We are the best crypto trading app in India, we provide our guidance
-            at a very cheap price.
+            at a very cheap price.We have a great record with our customer and 
+            customer satisfaction is our motto.
           </Text>
         </VStack>
 
